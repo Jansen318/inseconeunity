@@ -1,0 +1,19 @@
+body{
+    background: url(/images/bg.jpg) rgba(0 ,0 ,0 ,0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 991px){
+    .sidebar{
+        background-color: rgba(255 ,255 ,255 ,0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+
+.card{
+    margin-left: 30px;
+    margin-right: 30px;
+}
